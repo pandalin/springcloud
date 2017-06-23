@@ -22,6 +22,7 @@
         <module>config-client-eureka</module>
         <module>service-zipkin</module>
         <module>config-client-eureka-bus-amqp</module>
+        <module>consul-server</module>
     </modules>
 
     <parent>
