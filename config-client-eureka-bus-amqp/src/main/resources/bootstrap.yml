@@ -1,0 +1,25 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: config-client-eureka-bus-amqp
+  cloud:
+    config:
+      profile: dev
+      label: master
+      discovery:
+        enabled: true
+        service-id: config-server-eureka
+  rabbitmq:
+    host: 192.168.0.63
+    port: 5672
+    username: lin
+    password: lin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+#关闭权限，否则postman发送post请求/bus/refresh报无权限
+management:
+  security:
+    enabled: false
