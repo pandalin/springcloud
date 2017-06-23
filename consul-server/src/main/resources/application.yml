@@ -1,0 +1,13 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: consul-server
+  cloud:
+    consul:
+      host: 192.168.0.63
+      port: 8500
+      discovery:
+        instance-id: consul-server
+        tags: server
+        service-name: consul-server
