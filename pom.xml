@@ -21,6 +21,7 @@
         <module>config-server-eureka</module>
         <module>config-client-eureka</module>
         <module>service-zipkin</module>
+        <module>config-client-eureka-bus-amqp</module>
     </modules>
 
     <parent>

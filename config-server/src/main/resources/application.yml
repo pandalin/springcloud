@@ -9,7 +9,7 @@ spring:
       server:
         git:
           uri: https://github.com/pandalin/springcloud
-          username:
-          password:
+          username: pandalin
+          password: linmin_123
           search-paths: config-repo
           default-label: master

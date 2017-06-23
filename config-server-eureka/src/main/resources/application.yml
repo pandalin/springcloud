@@ -1,5 +1,5 @@
 server:
-  port: 9002
+  port: 9004
 
 spring:
   application:
@@ -9,8 +9,8 @@ spring:
       server:
         git:
           uri: https://github.com/pandalin/springcloud
-          username:
-          password:
+          username: pandalin
+          password: linmin_123
           search-paths: config-repo
           default-label: master
 eureka:
